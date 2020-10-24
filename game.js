@@ -17,7 +17,7 @@ greaterThan.onclick = () => {
         score++;
         resetTime(timerId);
     } else {
-        location.href = "./gameover.html?score" + score;
+        location.href = "./gameover.html?score=" + score;
     }
     number1 = Math.round(Math.random() * 100);
     number2 = Math.round(Math.random() * 100);
@@ -30,7 +30,7 @@ equalTo.onclick = () => {
         score++;
         resetTime(timerId);
     } else {
-        location.href = "./gameover.html?score" + score;
+        location.href = "./gameover.html?score=" + score;
     }
     number1 = Math.round(Math.random() * 100);
     number2 = Math.round(Math.random() * 100);
@@ -43,7 +43,7 @@ lesserThan.onclick = () => {
         score++;
         resetTime(timerId);
     } else {
-        location.href = "./gameover.html?score" + score;
+        location.href = "./gameover.html?score=" + score;
     }
     number1 = Math.round(Math.random() * 100);
     number2 = Math.round(Math.random() * 100);
